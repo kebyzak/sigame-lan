@@ -1,0 +1,31 @@
+# Зависимости
+node_modules/
+
+# Сборка (создаётся командой npm run build / start:lan)
+dist/
+dist-server/
+
+# Данные игры: состояние, ключ ведущего, загруженные пакеты
+data/
+
+# Пакеты вопросов (могут быть большими и чужими)
+*.siq
+
+# Логи и временные файлы
+*.log
+npm-debug.log*
+*.tmp
+.cache/
+
+# Окружение и секреты
+.env
+.env.*
+
+# Редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Настройки Claude Code
+.claude/
